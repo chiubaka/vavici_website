@@ -1,0 +1,20 @@
+{
+  "name": "Vavici",
+  "version": "0.0.0",
+  "description": "Website for Vavici Capital and Vavici Health Solutions",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "~2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "Daniel Chiu",
+  "license": "ISC"
+}
