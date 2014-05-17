@@ -1,6 +1,8 @@
 html, body {
     color: #667bb4;
     font-family: Century Gothic, sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 html,
