@@ -13,6 +13,10 @@ body,
     height: 100%;
 }
 
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+}
+
 .vertical-center.wrapper {
     display: table;
 }
