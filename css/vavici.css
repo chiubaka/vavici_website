@@ -1,6 +1,5 @@
 html, body {
-    background-color: #667bb4;
-    color: #ffffff;
+    color: #667bb4;
     font-family: Century Gothic, sans-serif;
 }
 
@@ -13,8 +12,12 @@ body,
     height: 100%;
 }
 
-.carousel-control.right, .carousel-control.left {
-    background-image: none;
+.carousel-indicators li {
+    border: 1px solid #667bb4;
+}
+
+.carousel-indicators li.active {
+    background: #667bb4;
 }
 
 .full-width {
