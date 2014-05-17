@@ -31,7 +31,8 @@
   Carousel.DEFAULTS = {
     interval: 5000,
     pause: 'hover',
-    wrap: true
+    wrap: true,
+    hide: false
   }
 
   Carousel.prototype.cycle =  function (e) {
@@ -97,6 +98,10 @@
     var that      = this
 
     if (!$next.length) {
+      if (this.options.hide) {
+        this.pause()
+        this.$element.hide()
+      }
       if (!this.options.wrap) return
       $next = this.$element.find('.item')[fallback]()
     }

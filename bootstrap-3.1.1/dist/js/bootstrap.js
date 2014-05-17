@@ -285,7 +285,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
   Carousel.DEFAULTS = {
     interval: 5000,
     pause: 'hover',
-    wrap: true
+    wrap: true,
+    hide: false
   }
 
   Carousel.prototype.cycle =  function (e) {
@@ -351,6 +352,10 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
     var that      = this
 
     if (!$next.length) {
+      if (this.options.hide) {
+        this.pause()
+        this.$element.hide()
+      }
       if (!this.options.wrap) return
       $next = this.$element.find('.item')[fallback]()
     }
