@@ -2,8 +2,11 @@ html, body {
     background-color: #667bb4;
     color: #ffffff;
     font-family: Century Gothic, sans-serif;
+    height: 100%;
 }
 
+#carousel-vavici-home,
+#carousel-vavici-home div.carousel-inner,
 #carousel-vavici-home div.item {
-    height: 600px;
+    height: 100%;
 }
