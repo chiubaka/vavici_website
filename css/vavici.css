@@ -17,6 +17,10 @@ body,
     background-image: none;
 }
 
+.full-width {
+    width: 100%;
+}
+
 .vertical-center.wrapper {
     display: table;
 }
