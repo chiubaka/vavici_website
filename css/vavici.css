@@ -9,6 +9,15 @@ body,
 #carousel-vavici-home,
 #carousel-vavici-home div.carousel-inner,
 #carousel-vavici-home div.item,
-.content {
+.vertical-center.wrapper {
     height: 100%;
+}
+
+.vertical-center.wrapper {
+    display: table;
+}
+
+.vertical-center.cell {
+    display: table-cell;
+    vertical-align: middle;
 }
