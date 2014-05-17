@@ -3,3 +3,7 @@ html, body {
     color: #ffffff;
     font-family: Century Gothic, sans-serif;
 }
+
+#carousel-vavici-home div.item {
+    height: 600px;
+}
