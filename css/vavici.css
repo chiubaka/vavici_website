@@ -34,3 +34,11 @@ body,
     display: table-cell;
     vertical-align: middle;
 }
+
+#text {
+	color: white;
+}
+
+.bar {
+	background: #667bb4;
+}
