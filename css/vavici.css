@@ -42,3 +42,15 @@ body,
 .bar {
 	background: #667bb4;
 }
+
+.navbar-brand {
+	padding-left: 30px;
+}
+
+ul.center-list {
+	position: relative; float: left; display: block; left: 50%;
+}
+
+li.center-list {
+	position: relative; float: left; display: block; right: 50%; 
+}
