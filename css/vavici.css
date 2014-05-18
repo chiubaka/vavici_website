@@ -85,3 +85,7 @@ ul.navbar-nav li {
     display: block;
     padding-bottom: 10px;
 }
+
+.advisor-name {
+    font-weight: bold;
+}
