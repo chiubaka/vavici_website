@@ -40,12 +40,8 @@ body,
 	color: white;
 }
 
-.bar {
-	background: #667bb4;
-}
-
-.navbar-brand {
-	padding-left: 30px;
+.navbar {
+	background-color: #667bb4;
 }
 
 ul.center-list {
