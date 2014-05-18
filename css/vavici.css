@@ -10,7 +10,8 @@ body,
 #carousel-vavici-home,
 #carousel-vavici-home div.carousel-inner,
 #carousel-vavici-home div.item,
-.vertical-center.wrapper {
+.vertical-center.wrapper,
+.full-height {
     height: 100%;
 }
 
