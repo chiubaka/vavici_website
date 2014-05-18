@@ -79,3 +79,9 @@ ul.navbar-nav li {
     color: #667bb4;
     background-color: #ffffff;
 }
+
+.team-title {
+    font-style: italic;
+    display: block;
+    padding-bottom: 10px;
+}
