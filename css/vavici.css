@@ -54,7 +54,18 @@ ul.navbar-nav li {
     right: 50%;
 }
 
+.navbar-fixed-bottom {
+    border-width: 0;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
+    background-color: #667bb4;
     text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a {
+    color: #667bb4;
+    background-color: #ffffff;
 }
