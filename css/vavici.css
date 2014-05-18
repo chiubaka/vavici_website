@@ -1,8 +1,6 @@
 html, body {
     color: #667bb4;
     font-family: Century Gothic, sans-serif;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 html,
@@ -29,6 +27,10 @@ body,
     bottom: 30px;
     cursor: pointer;
     z-index: 1;
+}
+
+.content {
+    padding: 0 100px;
 }
 
 .full-width {
