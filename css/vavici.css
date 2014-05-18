@@ -23,6 +23,14 @@ body,
     background: #667bb4;
 }
 
+#carousel-skip {
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
 .full-width {
     width: 100%;
 }
