@@ -36,10 +36,6 @@ body,
     vertical-align: middle;
 }
 
-#text {
-    color: white;
-}
-
 .navbar {
 	background-color: #667bb4;
 }
@@ -56,4 +52,9 @@ ul.navbar-nav li {
     float: left;
     display: block;
     right: 50%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    text-transform: uppercase;
 }
