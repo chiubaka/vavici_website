@@ -32,8 +32,7 @@
     interval: 5000,
     pause: 'hover',
     wrap: true,
-    hide: false,
-    target: null
+    hide: false
   }
 
   Carousel.prototype.cycle =  function (e) {
@@ -100,9 +99,8 @@
 
     if (!$next.length) {
       if (this.options.hide) {
-        this.pause()
-        this.$element.hide()
-        $(this.options.target).show();
+        this.pause();
+		window.location = this.options.redirect;
       }
       if (!this.options.wrap) return
       $next = this.$element.find('.item')[fallback]()
