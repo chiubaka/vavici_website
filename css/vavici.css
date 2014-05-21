@@ -29,6 +29,14 @@ body,
     z-index: 1;
 }
 
+.carousel .logo {
+    width: 200px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    z-index: 1;
+}
+
 .content {
     padding: 0 100px;
 }
