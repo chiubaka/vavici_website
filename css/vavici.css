@@ -141,7 +141,6 @@ div.partners-outer-container{
     margin-right: auto;
     height: 444px;
     width: 844px;
-    border: 1px solid black;
 }
 
 div.partners-container{
@@ -150,34 +149,38 @@ div.partners-container{
     height: 200px;
     width: 400px;
     padding: 10px;
-    border: 1px solid black;
 }
 
 h1#partners-wright{
     text-align: center;
     font-family: "Pacifico";
     font-size: 63px;
-    color: red;
+    color: #4EB550;
+    opacity: .5;
 }
 
 h1#partners-SPRC{
     text-align: center;
     font-family: "Fjalla One";
     font-size: 63px;
-    color: green;
+    margin-top: 50px;
+    color: #1925B0;
+    opacity: .5;
 }
 
 h1#partners-CERC{
     text-align: center;
     font-family: "Quicksand";
     font-size: 63px;
-    color: yellowgreen;
+    font-weight: 500;
+    color: #FA842F;
+    opacity: .5;
 }
 
 img#partners-palantir{
     margin-top: 30px;
     width: 380px;
-    /*opacity: .5;  */  
+    opacity: .5; 
 }
 
 font-family: 'Pacifico', cursive;
