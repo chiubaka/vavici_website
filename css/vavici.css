@@ -135,13 +135,22 @@ body,
     height: 100%;
 }
 
-/* outer wrapper container for all four logos*/
+/* page heading */
+h1.partners{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 140px;
+    font-family: 'News Cycle';
+}
+
+/* outer wrapper container for logos*/
 div.partners-outer-container{
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     height: 444px;
     width: 844px;
+    border: 1px dashed blue;
 }
 
 /* individual containers for each logo*/
