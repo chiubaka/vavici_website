@@ -155,7 +155,7 @@ div.partners-container{
 
 h1#partners-wright{
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: "Pacifico";
     font-size: 63px;
     color: red;
 }
@@ -174,11 +174,10 @@ h1#partners-CERC{
     color: yellowgreen;
 }
 
-h1#partners-palantir{
-    text-align: center;
-    font-family: "Times New Roman";
-    font-size: 63px;
-    color: black;
+img#partners-palantir{
+    margin-top: 30px;
+    width: 380px;
+    /*opacity: .5;  */  
 }
 
 font-family: 'Pacifico', cursive;
