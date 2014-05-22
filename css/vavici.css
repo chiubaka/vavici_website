@@ -134,3 +134,49 @@ body,
 .carousel-inner .item {
     height: 100%;
 }
+
+div.partners-outer-container{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 444px;
+    width: 844px;
+    border: 1px solid black;
+}
+
+div.partners-container{
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+h1#partners-wright{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 63px;
+    color: red;
+}
+
+h1#partners-SPRC{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 63px;
+    color: green;
+}
+
+h1#partners-CERC{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 63px;
+    color: yellowgreen;
+}
+
+h1#partners-palantir{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 63px;
+    color: black;
+}
