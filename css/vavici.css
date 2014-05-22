@@ -135,6 +135,7 @@ body,
     height: 100%;
 }
 
+/* outer wrapper container for all four logos*/
 div.partners-outer-container{
     margin-top: 100px;
     margin-left: auto;
@@ -143,6 +144,7 @@ div.partners-outer-container{
     width: 844px;
 }
 
+/* individual containers for each logo*/
 div.partners-container{
     float: left;
     margin: 10px;
@@ -151,7 +153,8 @@ div.partners-container{
     padding: 10px;
 }
 
-h1#partners-wright{
+/* partner link for wright designers*/
+a#partners-wright{
     text-align: center;
     font-family: "Pacifico";
     font-size: 63px;
@@ -159,16 +162,18 @@ h1#partners-wright{
     opacity: .5;
 }
 
-h1#partners-SPRC{
+/* partner link for Stanford Stanford Prevention Research Center (SPRC)*/
+a#partners-SPRC{
     text-align: center;
     font-family: "Fjalla One";
     font-size: 63px;
-    margin-top: 50px;
+    line-height: 153px;
     color: #1925B0;
     opacity: .5;
 }
 
-h1#partners-CERC{
+/* partner link for the Clinical Excellence Research Center (CERC)*/
+a#partners-CERC{
     text-align: center;
     font-family: "Quicksand";
     font-size: 63px;
@@ -177,13 +182,36 @@ h1#partners-CERC{
     opacity: .5;
 }
 
-img#partners-palantir{
+/* partner link for palantir*/
+a#partners-palantir{
     margin-top: 30px;
     width: 380px;
     opacity: .5; 
 }
 
+/* makes the partner links completely opaque when the mouse hovers*/
+a#partners-wright:hover, a#partners-SPRC:hover,
+a#partners-CERC:hover, a#partners-palantir:hover{
+    opacity: 1;
+}
+
+/* properties for the palantir company logo*/
+img#palantir{
+    margin-top: 30px;
+    width: 380px;
+    opacity: 0.5;
+}
+
+/* removes the underline decoration for links with class name "no-decoration"*/
+a.no-decoration{
+    text-decoration: none;
+}
+
+/* Pacifico font */
 font-family: 'Pacifico', cursive;
+/* Fjalla One font */
 font-family: 'Fjalla One', sans-serif;
+/* News Cycle font */
 font-family: 'News Cycle', sans-serif;
+/* Quicksand font */
 font-family: 'Quicksand', sans-serif;
