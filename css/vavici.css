@@ -215,6 +215,18 @@ a.no-decoration{
     text-decoration: none;
 }
 
+/* LOGO WRAP */
+.logo-wrap{ margin:0 auto; max-width:692px; width:100%;}
+.logo-wrap img{ width:100%;}
+
+/* MICROSOFT ALIMNINETWORK */
+div.video-placeholder{ margin:100px auto 0; max-width:640px; padding:0 15px; text-align:center; width:100%;}
+.alumani-form{ margin:15px auto 0; max-width:480px; width:100%;}
+.alumani-form .form-group { margin-bottom:25px;}
+.alumani-form .form-group input{ border:1px solid #adadad; height:38px; padding:8px 15px; width:100%;}
+.alumani-form .btn{ background-color:#667bb4; border:1px solid #667bb4; color:#FFF; padding:6px 20px;}
+.alumani-form .btn:hover{ background-color:#7893dc;}
+
 /* TEAM PAGE */
 .team-page .content{ border-bottom:1px solid #e9e9e9; padding:50px 100px;}
 .team-page .content:last-child{ border:none; padding-bottom:100px;}
@@ -231,6 +243,11 @@ a.no-decoration{
 .advisors-page .bx-wrapper .bxslider li a{ display:inline-block;}
 .advisors-page .bx-wrapper .bx-prev{ background-image: url(../img/controls.png); left:-50px;}
 .advisors-page .bx-wrapper .bx-next{ background-image: url(../img/controls.png); right:-50px;}
+
+@media (max-width:1299px) {
+	
+.main-container .content, .team-page .content{ padding:50px 25px;}
+}
 
 /* Pacifico font */
 font-family: 'Pacifico', cursive;
