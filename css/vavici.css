@@ -215,6 +215,23 @@ a.no-decoration{
     text-decoration: none;
 }
 
+/* 21-02-2017 */
+.team-page .content{ border-bottom:1px solid #e9e9e9; padding:50px 100px;}
+.team-page .content:last-child{ border:none; padding-bottom:100px;}
+.team-page h1{ font-size:50px; text-align:center; margin:0 0 30px;}
+.team-page h1 span{ border-bottom:3px solid #667bb4; display:inline-block; padding-bottom:8px;}
+
+/* ADVISORS */
+.advisors-page{ margin:0 auto; max-width:1070px; padding:100px 15px; width:100%;}
+.advisors-page .content{ padding:0;}
+.top-list{ padding:0 0 25px 25px;}
+.top-list li{ line-height:normal; margin-bottom:5px;}
+.advisors-page .bx-wrapper{ border:none; box-shadow:none;}
+.advisors-page .bx-wrapper .bxslider li{ border:1px solid #eeeeee; padding:10px; text-align:center;}
+.advisors-page .bx-wrapper .bxslider li a{ display:inline-block;}
+.advisors-page .bx-wrapper .bx-prev{ background-image: url(../img/controls.png); left:-50px;}
+.advisors-page .bx-wrapper .bx-next{ background-image: url(../img/controls.png); right:-50px;}
+
 /* Pacifico font */
 font-family: 'Pacifico', cursive;
 /* Fjalla One font */

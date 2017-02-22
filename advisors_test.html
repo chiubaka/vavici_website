@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="bootstrap-3.1.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/vavici.css">
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="bootstrap-3.1.1/dist/js/bootstrap.min.js"></script>
+	<title>Advisors | Vavici</title>
+	<!-- bxSlider Javascript file -->
+	<script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- bxSlider CSS file -->
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<script type="text/javascript">
+		jQuery(document).ready(function($){
+			$('.bxslider').bxSlider({
+				mode: 'horizontal',
+				auto: true,
+				moveSlides: 1,
+				pause: 3000,
+				slideWidth: 230,
+				minSlides: 2,
+				maxSlides: 4,
+				slideMargin: 5,
+				captions: true,
+				pager: false
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="advisors-page">
+		<div class="content vertical-center wrapper">
+			<div class="vertical-center cell">
+				<h1>Academic Advisors</h1>
+				<ul class="top-list">
+					<li><span class="advisor-name">Randall Stafford</span>, <span class="advisor-title">MD Professor Stanford PRC</span></li>
+					<li><span class="advisor-name">James R Doty MD</span>, <span class="advisor-title">Stanford Professor Neurosurgery, Director CCARE</span></li>
+					<li><span class="advisor-name">Michael Smith</span>, <span class="advisor-title">PhD, Professor Johns Hopkins</span></li>
+					<li><span class="advisor-name">Lawrence Cheskin</span>, <span class="advisor-title">MD, Director Weight Loss Clinic Johns Hopkins</span></li>
+					<li><span class="advisor-name">Janelle Coughlin</span>, <span class="advisor-title">PhD, Assistant Professor Johns Hopkins</span></li>
+					<li><span class="advisor-name">Suneil Koliwad MD</span>, <span class="advisor-title">PhD Assistant Professor UCSF</span></li>
+					<li><span class="advisor-name">Louis Aronne</span>, <span class="advisor-title">MD Professor Cornell and Medical Director Weill Cornell Comprehensive Weight Loss Center, Past President Obesity Society</span></li>
+					<li><span class="advisor-name">Fatima Cody Stanford, MD</span>, <span class="advisor-title">MPH, MPA- Obesity Medicine Physician at Harvard Massachusetts General Hospital</span></li>
+					<li><span class="advisor-name">Caroline Apovian</span>, <span class="advisor-title">MD Professor Boston University School of Medicine, President Elect Obesity Society</span></li>
+					<li><span class="advisor-name">T Colin Campbell</span>, <span class="advisor-title">MD, Professor Emeritus Cornell Nutrition, Author China Study</span></li>
+				</ul>
+				
+				<ul class="bxslider">
+					<li><a href="http://www.hopkinsmedicine.org/som/" target="_blank"><img src="img/jhsom.png" /></a></li>
+					<li><a href="https://www.bumc.bu.edu/busm/" target="_blank"><img src="img/boston-logo.png" /></a></li>
+					<li><a href="http://www.massgeneral.org/digestive/services/treatmentprograms.aspx?id=1730" target="_blank"><img src="img/mgh.png" /></a></li>
+					<li><a href="http://med.stanford.edu/cerc.html" target="_blank"><img src="img/stanford.jpg" /></a></li>
+					<li><a href="https://medschool.ucsf.edu/" target="_blank"><img src="img/ucsf-logo.jpg" /></a></li>
+				</ul>
+				
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="team.html">Team</a></li>
+					<li class="active"><a href="#">Advisors</a></li>
+					<li><a href="partners.html">Partners</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+</body>
+</html>
