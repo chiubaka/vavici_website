@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="owl-carousel/owl.theme.css">
     <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="css/template-style.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/validation.js"></script>
@@ -47,7 +46,7 @@
             </li>
             <li><a>Company</a>
               <ul>
-              <li><a href="vavicicompany.html">Vavici Company</a></li>
+              <li><a href="vavicicompanyslideshow.html">Vavici Company</a></li>
               <li><a href="vaviciventures.html">Vavici Ventures</a></li>
               <li><a href="vavicifoundation.html">Vavici Foundation</a></li>
             </ul>
@@ -70,12 +69,36 @@
         <div class="line">
           <div class="s-12 m-10 l-8 center">
             <img src="img/vavicilogo.png">
-            <h2 class="headline text-thin text-s-size-30"><i>Vas - Go, Vie - Life, Chi - Force</i></h2>
-            <p class="text-size-20">Go &middot; Life &middot; Force</p>
+            <h2 class="text-purple">
+              vas - go, vie - life, chi - force<br>
+              Go &middot; Life &middot; Force
+            </h2>
             <p>
-              VISION<br>
-              Eliminate obesity and diabetes by enabling all primary care doctors to go beyond symptom management to uncover and treat root causes.
-
+              <b class="text-blue">VISION</b><br>
+              <i class="text-purple">
+              Eliminate obesity and diabetes by<br>
+              enabling all primary care doctors<br>
+              to go beyond symptom management<br>
+              to uncover and treat root causes.<br>
+              </i>
+              <b class="text-blue">MISSION</b><br>
+              <i class="text-purple">
+              To make curative solutions commercially viable <br>
+              by engaging thought leaders, payors, and doctors to work together.
+              </i>
+            </p>
+            <p>
+              <script>
+              $("nav").find("a").click(function(e) {
+                 //e.preventDefault();
+                 var section = $(this).attr("href");
+                $("html, body").animate({
+                scrollTop: $(section).offset().top
+                    });
+                 })
+              </script>
+              <a href="#problem"><i>The Problem</i></a><br>
+              <a href="#solutions"><i>Solutions</i></a>
             </p>
           </div>
         </div>
@@ -86,20 +109,18 @@
 
       <article>
       <div class="section background-white">
-      <p>
-      <b>PROBLEM</b>
-      <br><br>
+
+      <h2 class="text-blue" id="problem">PROBLEM</h2>
+      <p class="text-purple">
       Despite the tens of billions invested in research and initiatives to treat obesity and diabetes, things have gotten worse NOT better.  Currently over half (60%) of the US population is overweight, nearly half (40%) of the US population is obese, and an alarming one third of the US population is projected to have type 2 diabetes by the year 2050.  Not only are our new R&D efforts not helping, but none of our wellness initiatives are having an impact either.
       <br><br>
       Both obesity and type 2 diabetes are reversible.  Many academic thought leaders know that most type 2 diabetes is curable in less than six months if given the right treatment.  Curing diabetes is not limited to new diabetics, but includes those who have had diabetes for decades.  Data reported by IDM suggests cure rates could be as high as 95%.  Yet our primary care doctors do not even treat obesity and those that treat type 2 diabetes treat it as a chronic incurable disease.  This is because instead of being trained to identify and treat the root cause of the type 2 diabetes, they have been taught to focus almost exclusively on addressing disease symptoms. This means managing blood glucose and disease complications like renal disease, retinopathy, and debilitating ulcers.  Most have little or no training in managing obesity.  The results have been disastrous.  Millions of Americans now suffer and even die from side effects of obesity and diabetes diseases that we have the means to both prevent and cure.
       <br><br>
       Obesity and type 2 diabetes now represent the single largest contributor to US healthcare costs and to our healthcare crisis.  Estimated at over $1 Trillion dollars annually we now spend one in every three US healthcare dollars on obesity and type 2 diabetes.
       </p>
-
-      <br><br>
-      <p>
-      <b>SOLUTIONS</b>
-      <br><br>
+     <br>
+      <h2 class="text-blue" id="solutions">SOLUTIONS</h2>
+      <p class="text-purple">
       We need to enable ALL our primary care doctors to provide the kind of root cause based treatments that can slow, halt, and ultimately reverse obesity and diabetes. These are treatments and approaches using validated methodologies that go well beyond traditional wellness programs that frequently run without doctor supervision. These are treatments that can and will reverse obesity and type 2 diabetes and which can only be administered properly when doctors are involved.  This paves the way for large-scale prevention and treatment that can change the course of our healthcare crisis. It may not reverse severe end organ damage, but it can eliminate the disease that will lead to progression and it can set the stage for therapeutic interventions that now have a chance to treat end organ damage. Yet most efforts to treat obesity and diabetes focus on wellness programs that dis-intermediate or exclude physician involvement.  While these are important and helpful, they are clearly not enough.
       <br><br>
       If training most of our doctors to use Viagra for impotence moved this product from nothing to nearly 90% market penetration in less than three years, imagine what training all our doctors to treat obesity and diabetes can do in three years.
@@ -123,7 +144,7 @@
 
             <!-- Collumn 2 -->
             <div class="s-12 m-12 l-4 margin-m-bottom-2x">
-              <h4 class="text-uppercase text-strong">Contact Us</h4>
+              <h4 class="text-uppercase text-strong"><center>Contact Us</center></h4>
               <div class="line">
                 <div class="s-1 m-1 l-1 text-center">
                   <i class="icon-placepin text-primary text-size-12"></i>
@@ -151,28 +172,6 @@
 
             </div>
 
-            <!-- Collumn 3 -->
-            <!--
-            <div class="s-12 m-12 l-4">
-              <h4 class="text-uppercase text-strong">Leave a Message</h4>
-              <form class="customform text-white">
-                <div class="line">
-                  <div class="margin">
-                    <div class="s-12 m-12 l-6">
-                      <input name="email" class="required email border-radius" placeholder="Your e-mail" title="Your e-mail" type="text" />
-                    </div>
-                    <div class="s-12 m-12 l-6">
-                      <input name="name" class="name border-radius" placeholder="Your name" title="Your name" type="text" />
-                    </div>
-                  </div>
-                </div>
-                <div class="s-12">
-                  <textarea name="message" class="required message border-radius" placeholder="Your message" rows="3"></textarea>
-                </div>
-                <div class="s-12"><button class="submit-form button background-primary border-radius text-white" type="submit"><a href="malito:han@vavici.com">Send Message</a></button></div>
-              </form>
-            </div>
-          -->
           </div>
         </div>
       </section>
@@ -181,9 +180,8 @@
       <!-- Bottom Footer -->
       <section class="padding background-dark">
         <div class="line">
-          <div class="s-12 l-6">
-            <p class="text-size-12">Copyright &copy 2017 Alicia Isabel Guerra. All rights reserved.<br><br></p>
-            <p class="text-size-12"></p>
+          <div class="s-12 l-12 text-size-1">
+            <center>Copyright &copy 2017 Alicia Isabel Guerra. All rights reserved.</center><br><br>
           </div>
           <div class="s-12 l-6">
           </div>

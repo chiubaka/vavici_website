@@ -3,6 +3,7 @@
 /* Typography */
 body {
   background: #fff;
+  font-family: Century Gothic, sans-serif;
 }
 p {
   color: #777;
@@ -12,7 +13,7 @@ p {
 a, a:link, a:visited, a:hover, a:active {
 color: #777;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #000;
   margin-bottom: 15px;
   margin-top: 0;
@@ -58,6 +59,10 @@ h5.headline, .h5.headline {
 h6.headline, .h6.headline {
   font-size: 2rem;
   letter-spacing: -1.3px;
+}
+
+.text-size-1 {
+  font-size:12px !important;
 }
 .text-size-12, .text-l-size-12 {
   font-size: 12px !important;
@@ -462,6 +467,12 @@ aside.aside-left {
 .text-primary, .text-primary *, .primary-color-primary .text-primary, .primary-color-primary .text-primary * {
   /*#667bb4 #fff*/
   color: #3333cc !important;
+}
+.text-purple{
+  color: #667bb4 !important;
+}
+.text-blue{
+  color: cornflowerblue !important;
 }
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
   color: #002633 !important;
@@ -1867,3 +1878,12 @@ p.form-success {
   display: inline-block !important;
   padding: 7px 10px;
 }
+
+/* Pacifico font */
+font-family: 'Pacifico', cursive;
+/* Fjalla One font */
+font-family: 'Fjalla One', sans-serif;
+/* News Cycle font */
+font-family: 'News Cycle', sans-serif;
+/* Quicksand font */
+font-family: 'Quicksand', sans-serif;
