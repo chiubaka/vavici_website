@@ -6,7 +6,8 @@
 */
 
 /* ADVISORS */
-.advisors-page{ margin:0 auto; max-width:1070px; padding:100px 15px; width:100%;}
+/*.advisors-page{ margin:0 auto; max-width:1070px; padding:100px 15px; width:100%;}*/
+.advisors-page{margin:0 auto; max-width:1070px; padding: 10px 15px; width:100%;}
 .advisors-page .content{ padding:0;}
 .top-list{ padding:0 0 25px 25px;}
 .top-list li{ line-height:normal; margin-bottom:5px;}
