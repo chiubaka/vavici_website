@@ -122,7 +122,7 @@ nav {
   /*
   background:#152732;
   */
-  background: linear-gradient(to bottom right, white , #667bb4);
+  background: linear-gradient(to right, white , #667bb4);
 }
 .line:after, nav:after, .center:after, .box:after, .margin:after, .margin2x:after {
   clear:both;
