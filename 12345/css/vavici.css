@@ -1,0 +1,259 @@
+html, body {
+    color: #667bb4;
+    font-family: Century Gothic, sans-serif;
+}
+
+html,
+body,
+#carousel-vavici-home,
+#carousel-vavici-home div.carousel-inner,
+#carousel-vavici-home div.item,
+.vertical-center.wrapper,
+.full-height {
+    height: 100%;
+}
+
+.carousel-indicators li {
+    border: 1px solid #667bb4;
+}
+
+.carousel-indicators li.active {
+    background: #667bb4;
+}
+
+#carousel-skip {
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel .logo {
+    width: 200px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    z-index: 1;
+}
+
+.content {
+    padding: 0 100px;
+}
+
+#han_chiu {
+    margin-bottom: 50px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.vertical-center.wrapper {
+    display: table;
+}
+
+.vertical-center.cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar {
+	background-color: #667bb4;
+}
+
+ul.navbar-nav {
+    position: relative;
+    float: left;
+    display: block;
+    left: 50%;
+}
+
+ul.navbar-nav li {
+    position: relative;
+    float: left;
+    display: block;
+    right: 50%;
+}
+
+.navbar-fixed-bottom {
+    border-width: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    background-color: #667bb4;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a {
+    color: #667bb4;
+    background-color: #ffffff;
+}
+
+.team-title {
+    font-style: italic;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.advisor-name {
+    font-weight: bold;
+}
+
+.carousel-fade .carousel-inner .item {
+    opacity: 0;
+    transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+    z-index: 2;
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+/* page heading */
+h1.partners{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 140px;
+    font-family: 'News Cycle';
+}
+
+/* outer wrapper container for logos*/
+div.partners-outer-container{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 444px;
+    width: 844px;
+}
+
+/* individual containers for each logo*/
+div.partners-container{
+    float: left;
+    margin: 10px;
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+}
+
+/* partner link for wright designers*/
+a#partners-wright{
+    text-align: center;
+    font-family: "Pacifico";
+    font-size: 63px;
+    color: #4EB550;
+    opacity: .5;
+}
+
+/* partner link for Stanford Stanford Prevention Research Center (SPRC)*/
+a#partners-SPRC{
+    text-align: center;
+    font-family: "Fjalla One";
+    font-size: 63px;
+    line-height: 153px;
+    color: #1925B0;
+    opacity: .5;
+}
+
+/* partner link for the Clinical Excellence Research Center (CERC)*/
+a#partners-CERC{
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 63px;
+    font-weight: 500;
+    color: #FA842F;
+    opacity: .5;
+}
+
+/* partner link for palantir*/
+a#partners-palantir{
+    margin-top: 30px;
+    width: 380px;
+    opacity: .5; 
+}
+
+/* makes the partner links completely opaque when the mouse hovers*/
+a#partners-wright:hover, a#partners-SPRC:hover,
+a#partners-CERC:hover, a#partners-palantir:hover{
+    opacity: 1;
+}
+
+/* properties for the palantir company logo*/
+img#palantir{
+    margin-top: 30px;
+    width: 380px;
+    opacity: 0.5;
+}
+
+/* removes the underline decoration for links with class name "no-decoration"*/
+a.no-decoration{
+    text-decoration: none;
+}
+
+/* LOGO WRAP */
+.logo-wrap{ margin:0 auto; max-width:692px; width:100%;}
+.logo-wrap img{ width:100%;}
+
+/* MICROSOFT ALIMNINETWORK */
+div.video-placeholder{ margin:100px auto 0; max-width:640px; padding:0 15px; text-align:center; width:100%;}
+.alumani-form{ margin:15px auto 0; max-width:480px; width:100%;}
+.alumani-form .form-group { margin-bottom:25px;}
+.alumani-form .form-group input{ border:1px solid #adadad; height:38px; padding:8px 15px; width:100%;}
+.alumani-form .btn{ background-color:#667bb4; border:1px solid #667bb4; color:#FFF; padding:6px 20px;}
+.alumani-form .btn:hover{ background-color:#7893dc;}
+
+/* TEAM PAGE */
+.team-page .content{ border-bottom:1px solid #e9e9e9; padding:50px 100px;}
+.team-page .content:last-child{ border:none; padding-bottom:100px;}
+.team-page h1{ font-size:50px; text-align:center; margin:0 0 30px;}
+.team-page h1 span{ border-bottom:3px solid #667bb4; display:inline-block; padding-bottom:8px;}
+
+/* ADVISORS */
+.advisors-page{ margin:0 auto; max-width:1070px; padding:100px 15px; width:100%;}
+.advisors-page .content{ padding:0;}
+.top-list{ padding:0 0 25px 25px;}
+.top-list li{ line-height:normal; margin-bottom:5px;}
+.advisors-page .bx-wrapper{ border:none; box-shadow:none;}
+.advisors-page .bx-wrapper .bxslider li{ border:1px solid #eeeeee; padding:10px; text-align:center;}
+.advisors-page .bx-wrapper .bxslider li a{ display:inline-block;}
+.advisors-page .bx-wrapper .bx-prev{ background-image: url(../img/controls.png); left:-50px;}
+.advisors-page .bx-wrapper .bx-next{ background-image: url(../img/controls.png); right:-50px;}
+
+@media (max-width:1299px) {
+	
+.main-container .content, .team-page .content{ padding:50px 25px;}
+}
+
+/* Pacifico font */
+font-family: 'Pacifico', cursive;
+/* Fjalla One font */
+font-family: 'Fjalla One', sans-serif;
+/* News Cycle font */
+font-family: 'News Cycle', sans-serif;
+/* Quicksand font */
+font-family: 'Quicksand', sans-serif;

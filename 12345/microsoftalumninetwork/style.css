@@ -1,0 +1,7 @@
+body{ position:relative;}
+#carousel-skip{ bottom:20px; color:#fff; position:fixed; z-index:9999;}
+
+div.video-placeholder{ margin:40px auto;}
+.download-link{ background:#667bb4; color:#fff; display:block; font-size:17px; margin:20px auto; padding:10px 15px; width:235px;}
+.download-link span{ background: url(img/pdf.png) no-repeat right 3px; display:block; padding:5px 25px 5px 0;}
+.download-link:hover, .download-link:focus{ color:#fff; text-decoration:none;}
