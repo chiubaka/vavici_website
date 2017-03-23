@@ -65,12 +65,14 @@ body,
 ul.navbar-nav {
     position: relative;
     float: left;
+    /*position: absolute;*/
     display: block;
     left: 50%;
 }
 
 ul.navbar-nav li {
     position: relative;
+    /*position: absolute;*/
     float: left;
     display: block;
     right: 50%;
@@ -194,7 +196,7 @@ a#partners-CERC{
 a#partners-palantir{
     margin-top: 30px;
     width: 380px;
-    opacity: .5; 
+    opacity: .5;
 }
 
 /* makes the partner links completely opaque when the mouse hovers*/
@@ -220,7 +222,10 @@ a.no-decoration{
 .logo-wrap img{ width:100%;}
 
 /* MICROSOFT ALIMNINETWORK */
+/*
 div.video-placeholder{ margin:100px auto 0; max-width:640px; padding:0 15px; text-align:center; width:100%;}
+*/
+div.video-placeholder{ margin: 0px auto 0; max-width:640px; width:100%;}
 .alumani-form{ margin:15px auto 0; max-width:480px; width:100%;}
 .alumani-form .form-group { margin-bottom:25px;}
 .alumani-form .form-group input{ border:1px solid #adadad; height:38px; padding:8px 15px; width:100%;}
@@ -245,8 +250,10 @@ div.video-placeholder{ margin:100px auto 0; max-width:640px; padding:0 15px; tex
 .advisors-page .bx-wrapper .bx-next{ background-image: url(../img/controls.png); right:-50px;}
 
 @media (max-width:1299px) {
-	
-.main-container .content, .team-page .content{ padding:50px 25px;}
+
+/*
+.main-container .content, .team-page .content{ padding:50px 25px;}*/
+.main-container .content, .team-page .content{ padding:0px 25px;}
 }
 
 /* Pacifico font */
