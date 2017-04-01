@@ -1,0 +1,129 @@
+html, body {
+    color: #667bb4;
+    font-family: Century Gothic, sans-serif;
+}
+
+html,
+body,
+#carousel-vavici-home,
+#carousel-vavici-home div.carousel-inner,
+#carousel-vavici-home div.item,
+.vertical-center.wrapper,
+.full-height {
+    height: 100%;
+}
+
+
+
+.content {
+    padding: 0 100px;
+}
+
+
+
+.full-width {
+    width: 100%;
+}
+
+.vertical-center.wrapper {
+    display: table;
+}
+
+.vertical-center.cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.navbar {
+	background-color: #667bb4;
+}
+
+/*
+ul.navbar-nav {
+    position: relative;
+    float: left;
+   
+    display: block;
+    left: 50%;
+}
+
+ul.navbar-nav li {
+    position: relative;
+   
+    float: left;
+    display: block;
+    right: 50%;
+}
+*/
+
+.navbar-fixed-bottom {
+    border-width: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    background-color: #667bb4;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a {
+    color: #667bb4;
+    background-color: #ffffff;
+}
+
+
+
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+    height: 100%;
+}
+
+/
+/* MICROSOFT ALIMNINETWORK */
+/*
+div.video-placeholder{ margin:100px auto 0; max-width:640px; padding:0 15px; text-align:center; width:100%;}
+*/
+div.video-placeholder{ margin: 0px auto 0; max-width:640px; width:100%;}
+.alumani-form{ margin:15px auto 0; max-width:480px; width:100%;}
+.alumani-form .form-group { margin-bottom:25px;}
+.alumani-form .form-group input{ border:1px solid #adadad; height:38px; padding:8px 15px; width:100%;}
+.alumani-form .btn{ background-color:#667bb4; border:1px solid #667bb4; color:#FFF; padding:6px 20px;}
+.alumani-form .btn:hover{ background-color:#7893dc;}
+
+/* TEAM PAGE */
+.team-page .content{ border-bottom:1px solid #e9e9e9; padding:50px 100px;}
+.team-page .content:last-child{ border:none; padding-bottom:100px;}
+.team-page h1{ font-size:50px; text-align:center; margin:0 0 30px;}
+.team-page h1 span{ border-bottom:3px solid #667bb4; display:inline-block; padding-bottom:8px;}
+
+/* ADVISORS */
+.advisors-page{ margin:0 auto; max-width:1070px; padding:100px 15px; width:100%;}
+.advisors-page .content{ padding:0;}
+.top-list{ padding:0 0 25px 25px;}
+.top-list li{ line-height:normal; margin-bottom:5px;}
+.advisors-page .bx-wrapper{ border:none; box-shadow:none;}
+.advisors-page .bx-wrapper .bxslider li{ border:1px solid #eeeeee; padding:10px; text-align:center;}
+.advisors-page .bx-wrapper .bxslider li a{ display:inline-block;}
+.advisors-page .bx-wrapper .bx-prev{ background-image: url(../img/controls.png); left:-50px;}
+.advisors-page .bx-wrapper .bx-next{ background-image: url(../img/controls.png); right:-50px;}
+
+@media (max-width:1299px) {
+
+/*
+.main-container .content, .team-page .content{ padding:50px 25px;}*/
+.main-container .content, .team-page .content{ padding:0px 25px;}
+}
+
+/* Pacifico font */
+font-family: 'Pacifico', cursive;
+/* Fjalla One font */
+font-family: 'Fjalla One', sans-serif;
+/* News Cycle font */
+font-family: 'News Cycle', sans-serif;
+/* Quicksand font */
+font-family: 'Quicksand', sans-serif;
