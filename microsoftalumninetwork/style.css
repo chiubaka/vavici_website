@@ -31,6 +31,10 @@ ul.navbar-nav li {
     border-width: 0;
 }
 
+.text-purple{
+  color: #667bb4 !important;
+}
+
 .navbar-default .navbar-nav>li>a {
     color: #ffffff;
     background-color: #667bb4;
