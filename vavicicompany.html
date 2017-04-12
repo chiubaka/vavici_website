@@ -91,7 +91,20 @@
 						</p>
 					</div>
 			
-		<div class="content">
+		<script>
+              $("nav").find("a").click(function(e) {
+                 //e.preventDefault();
+                 var section = $(this).attr("href");
+                $("html, body").animate({
+                scrollTop: $(section).offset().top
+                    });
+                 })
+              </script>
+
+              <center><p><a href="#problem"><i>The Problem</i></a></p></center>
+              <center><p><a href="#solutions"><i>Solution</i></a></p></center>
+            <br>
+            </p> <div class="content">
 			<div class="row">
 				<div class="col-sm-4">
 					<h3 class="text-blue">Contact VAVICI</h3>
@@ -113,20 +126,7 @@
 				</div>
 			</div>
 		</div>
-              <script>
-              $("nav").find("a").click(function(e) {
-                 //e.preventDefault();
-                 var section = $(this).attr("href");
-                $("html, body").animate({
-                scrollTop: $(section).offset().top
-                    });
-                 })
-              </script>
-
-              <center><p><a href="#problem"><i>The Problem</i></a></p></center>
-              <center><p><a href="#solutions"><i>Solution</i></a></p></center>
-            <br>
-            </p>
+              
           </div>
         </div>
         <!--
